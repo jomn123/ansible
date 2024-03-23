@@ -1,0 +1,8 @@
+all:
+  hosts:
+    server1.example.com:
+      ansible_host: 192.168.227.128
+      ansible_user: test
+      ansible_become: true
+      ansible_become_method: sudo
+      ansible_become_pass: root
